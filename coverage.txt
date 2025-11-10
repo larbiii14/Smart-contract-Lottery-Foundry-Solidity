@@ -1,0 +1,23 @@
+Compiling 61 files with Solc 0.8.19
+Solc 0.8.19 finished in 2.10s
+Compiler run successful!
+Analysing contracts...
+Running tests...
+
+Ran 6 tests for test/unit/RaffleTest.t.sol:RaffleTest
+[FAIL: InvalidConsumer(7570848181127581986339189052072122886913734678723205985508750752041200654908 [7.57e75], 0x037eDa3aDB1198021A9b2e88C22B464fD38db3f3)] testCheckUpkeepReturnsFalseIfRaffleIsntOpen() (gas: 107516)
+[PASS] testEnteringRaggleEmitsEvent() (gas: 69856)
+[FAIL: InvalidConsumer(7570848181127581986339189052072122886913734678723205985508750752041200654908 [7.57e75], 0x037eDa3aDB1198021A9b2e88C22B464fD38db3f3)] testPreventEnteringWhileCalculating() (gas: 107471)
+[PASS] testRaffleRecordsPlayers() (gas: 69511)
+[PASS] testRaffleRevertWhenNoEntranceFees() (gas: 13498)
+[PASS] testRaffleStateStartsOpen() (gas: 8022)
+Suite result: FAILED. 4 passed; 2 failed; 0 skipped; finished in 13.00ms (6.71ms CPU time)
+
+Ran 1 test suite in 456.47ms (13.00ms CPU time): 4 tests passed, 2 failed, 0 skipped (6 total tests)
+
+Failing tests:
+Encountered 2 failing tests in test/unit/RaffleTest.t.sol:RaffleTest
+[FAIL: InvalidConsumer(7570848181127581986339189052072122886913734678723205985508750752041200654908 [7.57e75], 0x037eDa3aDB1198021A9b2e88C22B464fD38db3f3)] testCheckUpkeepReturnsFalseIfRaffleIsntOpen() (gas: 107516)
+[FAIL: InvalidConsumer(7570848181127581986339189052072122886913734678723205985508750752041200654908 [7.57e75], 0x037eDa3aDB1198021A9b2e88C22B464fD38db3f3)] testPreventEnteringWhileCalculating() (gas: 107471)
+
+Encountered a total of 2 failing tests, 4 tests succeeded

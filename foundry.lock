@@ -1,0 +1,29 @@
+{
+  "lib/chainlink": {
+    "tag": {
+      "name": "v2.29.0",
+      "rev": "10bd946f63887e15b6aafb63c0ba5aedd6b1e73f"
+    }
+  },
+  "lib/forge-std": {
+    "tag": {
+      "name": "v1.8.2",
+      "rev": "978ac6fadb62f5f0b723c996f64be52eddba6801"
+    }
+  },
+  "lib/foundry-devops": {
+    "tag": {
+      "name": "0.2.2",
+      "rev": "df9f90b490423578142b5dd50752db9427efb2ac"
+    }
+  },
+  "lib/openzeppelin-contracts": {
+    "tag": {
+      "name": "v4.9.2",
+      "rev": "e50c24f5839db17f46991478384bfda14acfb830"
+    }
+  },
+  "lib/solmate": {
+    "rev": "c93f7716c9909175d45f6ef80a34a650e2d24e56"
+  }
+}
